@@ -19,6 +19,26 @@ header{
 main{
     background-color: rgb(93, 92, 92);
 }
+#filters{
+    display: flex;
+    justify-content: space-between;
+}
+#filters>input{
+  border-radius: 10px;
+}
+#container-check>label>input{
+  border-radius: 100%;
+}
+#container-check{
+    display: flex;
+    gap: 5rem;
+    font-size: larger;
+    font-weight: bolder;
+    color: white;
+}
+.status-filter{
+    margin-right: 10px;
+}
 #Container_cards{
     display: flex;
     -webkit-box-pack: center;
@@ -74,6 +94,18 @@ main{
     color: rgb(158, 158, 158);
     padding-bottom: 15px;
 }
+
+#pagination{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-page{
+    width: 25px;
+    background-color: gray;
+    border-color: white;
+    color: white;
+}
+
 footer{
     background-color: black;
     color: white;
